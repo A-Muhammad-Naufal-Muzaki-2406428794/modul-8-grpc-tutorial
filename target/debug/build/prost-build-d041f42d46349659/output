@@ -1,0 +1,4 @@
+cargo:rustc-env=PROTOC=C:\Program Files\protoc-34.1-win64\bin\protoc.exe
+cargo:rustc-env=PROTOC_INCLUDE=C:\Users\Asus\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\include
+cargo:rerun-if-env-changed=PROTOC
+cargo:rerun-if-env-changed=PROTOC_INCLUDE
